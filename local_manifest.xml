@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="gh" fetch="https://github.com" />
+	<remote name="gl" fetch="https://gitlab.com" />
+	<remote name="gt" fetch="https://gitea.com" />
+	<remote name="bb" fetch="https://bitbucket.org" />
+
+	<project remote="gh" name="stonehashira/device_xiaomi_sweet" path="device/xiaomi/sweet" revision="fourteen" />
+	<project remote="gh" name="stonehashira/device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" revision="fourteen" />
+	<project remote="gh" name="stonehashira/vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" revision="fourteen" />
+	<project remote="gh" name="stonehashira/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="fourteen" />
+	<project remote="gt" name="stonehashira/vendor_xiaomi_sweet-miuicamera" path="vendor/xiaomi/sweet-miuicamera" revision="fourteen" />
+
+	<project remote="gh" name="PixelOS-AOSP/hardware_xiaomi" path="hardware/xiaomi" revision="fourteen" />
+	<project remote="gh" name="itsshashanksp/kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="sleepy-inline" />
+</manifest>
